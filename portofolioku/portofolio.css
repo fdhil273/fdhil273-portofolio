@@ -1,0 +1,146 @@
+.profil {
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #fdfdfd;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+.foto-profil {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.bio h1 {
+  font-size: 28px;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.bio h2 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.bio p {
+  font-size: 18px;
+  color: #333;
+  max-width: 500px;
+}
+
+.bio h5{
+  max-width: 500px;
+}
+
+body{
+    background-color: #d0fbfd;
+}
+
+p {
+  font-size: small;
+}
+.keahlian  {
+  font-size: larger;
+  width: 500px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.kerjaan {
+  font-size: larger;
+  width: 500px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.pengalaman {
+  font-size: larger;
+  width: 500px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.dokumentasi{
+  font-size: larger;
+  width: 500px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+
+.proyek {
+  font-size: larger;
+  width: 500px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.proyek p {
+  font-size: medium;
+}
+
+.contact {
+  font-size: larger;
+  width: 500px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.foto-dokumen{
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+ 
+/* kode selanjutnya di buat dengan bantuan AI dan sedikit penyesuaian dari saya, terima kasih */
+
+.grid-dokumentasi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.grid-dokumentasi img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.grid-dokumentasi img:hover {
+  transform: scale(1.03);
+}
